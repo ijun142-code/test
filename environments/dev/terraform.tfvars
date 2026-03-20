@@ -102,7 +102,7 @@ db_options             = []
 # Bastion
 # -------------------------
 bastion_instance_type = "t3.micro"
-bastion_key_name      = "my-key-pair"
+bastion_key_name      = "ssh-key"
 
 bastion_allowed_ssh_cidr_blocks = [
   "121.160.42.62/32"
